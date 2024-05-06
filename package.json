@@ -5,19 +5,18 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-      "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
     },
     "bin": {
-      "note": "./index.js"
+        "note": "./index.js"
     },
     "keywords": [],
     "author": "",
-    
     "dependencies": {
-      "open": "^9.1.0",
-      "yargs": "^17.7.2"
+        "open": "^9.1.0",
+        "yargs": "^17.7.2"
     },
     "devDependencies": {
-      "jest": "^29.5.0"
+        "jest": "^29.5.0"
     }
-  }
+}

@@ -1,10 +1,4 @@
 #!/usr/bin/env node
 
-const note = process.argv[2];
+import './src/command.js'
 
-const newNote = {
-    content: note,
-    id: Date.now()
-}
-
-console.log(newNote);
